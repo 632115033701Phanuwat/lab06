@@ -3,6 +3,7 @@
     {{ GStore.flashMessage }}
   </div>
   <div id="nav">
+    <h1>Phanuwat Panya</h1>
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
   </div>
